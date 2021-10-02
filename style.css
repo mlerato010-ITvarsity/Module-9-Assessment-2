@@ -1,0 +1,37 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+#local{
+    width:100%;
+    background-color:gray;
+    padding:15px 0px;
+    margin: 0;
+
+    
+    font-size:1.5rem;
+    color:white;
+    text-align: centre;
+}
+#cities{
+    border-collapse: collapse;
+    width:100%;
+}
+
+#cities td{
+    border: 1px solid palevioletred;
+    padding:8px;
+}
+
+#cities tr:nth-child(even){
+    background-color:blanchedalmond;
+}
+
+.col1{
+    width:10%;
+}
+
+.col2{
+    width:45%;
+}
